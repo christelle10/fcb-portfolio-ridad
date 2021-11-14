@@ -12,6 +12,10 @@ img {
 	width: 250px;
 }
 
+nav {
+	background-color: #EFDADA;
+}
+
 #landing {
 	height: 80vh;
 	background-color: transparent;
@@ -27,7 +31,7 @@ img {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background-color: lightgray;
+	background-color: #EFDADA;
 	border-radius: 6px;
 
 }
@@ -35,11 +39,20 @@ img {
 ul {
 	list-style: none;
 	padding: 0;
+	color: #544949;
 	
 }
 
-h2 {
-	color: #cc0052;
+a {
+	color: #544949;
+}
+
+a:hover {
+	color: white;
+}
+
+p, h1, h2 {
+	color: #544949;
 }
 
 .tools {
